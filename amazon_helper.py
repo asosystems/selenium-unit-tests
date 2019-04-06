@@ -48,3 +48,14 @@ class AmazonHelper():
                 pass
 
         return best_sellers
+
+
+class HelperAmazon(AmazonHelper):
+
+    def __init__(self, driver):
+        return super().__init__(driver)
+
+    def search(self, query):
+        
+        return super().search(query)
+        
